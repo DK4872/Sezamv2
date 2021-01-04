@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+<meta charset='utf-8'>
+<title>Animacja DK</title>
+<style>
+
+</style>
+</head>
+<body>
+<h1>PULSUJĄCA GŁOWA?</h1>
+<svg width='1200' height='1200'>
+<circle id='k1' cx='100' cy='100' r='10' stroke='black' fill='black' stroke-width='2' />
+<animate 
+	xlink:href="#k1"
+	end="click" 
+	attributeName="r" 
+	values="10; 4; 12" 
+	keyTimes="0; 0.5; 1" 
+	repeatCount="indefinite" 
+	dur="0.5s" 
+	fill="remove"
+/>
+<rect x= '96' y='115' width='8' height='15' stroke='black' stroke-width='8' fill='none'/>
+<rect x='88' y='115' width='0.5' height='12' stroke='black' stroke-width='3' fill='none'/>
+<rect x='111.5' y='115' width='0.5' height='12' stroke='black' stroke-width='3' fill='none'/>
+<rect x='104' y='138' width='0.5' height='12' stroke='black' stroke-width='3' fill='none'/>
+<rect x='95' y='138' width='0.5' height='12' stroke='black' stroke-width='3' fill='none'/>
+<text id='k2' x='220' y='130' font-size='30px' fill='red'>APAP!</text>
+<animateTransform 
+		xlink:href="#k2"
+		attributeName="transform"
+		type="rotate"
+		from="0 260 130"
+		to="360 260 130"
+		dur="2s"
+		repeatCount="indefinite"
+	/>
+<text x='10' y='430' font-size='25px' fill='black'>Autor: Dominik Korzeniecki</text>
+</svg>
+<pre>
+DOMINIK KORZENIECKI
+-------------------
+</pre>
+</body>
+</html>

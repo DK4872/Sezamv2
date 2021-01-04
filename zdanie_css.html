@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+<meta charset='utf-8'>
+<title>Michal Los zadanie CSS</title>
+<style type="text/css">
+#div1 {
+	font-size: 40px;
+	text-shadow: 4px 2px green,
+	6px 4px red,
+	8px 6px black
+	;
+}
+table, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#radial {
+  background-image: radial-gradient(red, green, blue);
+  width: 10%;
+}
+#linear {
+  background-image: linear-gradient(blue, red);
+  width: 10%;
+}
+#diagonal {
+  background-image: linear-gradient(to bottom right, red, yellow);
+  width: 10%;
+}
+#reap {
+  background-image: repeating-linear-gradient(yellow, red 10%, blue 20%);
+  width: 10%;
+}
+img {
+	height: 300px; 
+}
+#img2
+{border-radius: 50%;
+opacity: 0.5}
+
+</style>
+</head>
+<body>
+
+<h1>1. Napis</h1>
+<div id="div1">Kocham Olsztyn</div>
+<h2>2. Szachownica lotnicza</h2>
+Tego nie umiałem zrobić nawet z pomocą internetu:(
+<h3>3. Tabela </h3>
+	<table>
+		<tr><td bgcolor="silver"><b>Kraj</b></td><td bgcolor="silver"><b>Stolica</b></td><td bgcolor="silver"><b>Waluta</b></td></tr>
+		<tr><td>Polska</td><td>Warszawa</td><td>PLN</td></tr>
+		<tr><td>Niemcy</td><td>Berlin</td><td>EUR</td></tr>
+		<tr><td>Anglia</td><td>Londyn</td><td>GBP</td></tr>
+		<tr><td>Finlandia</td><td>Helsinki</td><td>EUR</td></tr>
+		<tr><td>Norwegia</td><td>Oslo</td><td>NOK</td></tr>
+		<tr><td colspan="3">Który kraj nie należy do UE?</td></tr>
+	</table>
+<h4>Efekty specjalne</h4>
+<div id="radial">Radial gradient</div>
+<div id="linear">Linear gradient</div>
+<div id="diagonal">Diagonal gradient</div>
+<div id="reap">Repeat gradient</div>
+<h5>5. Sformatuj obrazek</h5>
+<img src="https://3.bp.blogspot.com/-B-SuzKZa3p8/Vjst6eC8GaI/AAAAAAAAFLI/TVMJGj_KnCA/s960/water-drops-glass-bokeh-android-wallpaper.jpg">
+<img id="img2" src="https://3.bp.blogspot.com/-B-SuzKZa3p8/Vjst6eC8GaI/AAAAAAAAFLI/TVMJGj_KnCA/s960/water-drops-glass-bokeh-android-wallpaper.jpg">
+</body>
+</html>
