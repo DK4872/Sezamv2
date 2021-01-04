@@ -1,0 +1,20 @@
+cd
+pwd
+ls -l
+-----------------------
+git init # w odpowiednim katalogu 
+git init nazwa_repozytorium
+git init --bare nazwa_rep
+git clone https://github.com/DK4872/Sezam nazwa_rep # klon zdalnego repozytorium
+----------------------------------
+git status
+git log --oneline
+-----------------------
+git push
+git pull
+------------------
+git config [--system--|--global|--local]
+-----------
+git status
+git add 
+git commit -m "opis" 
